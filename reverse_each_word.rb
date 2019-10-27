@@ -1,5 +1,10 @@
 def reverse_each_word (sentence)
-  pp sentence.split(" ")
-  split_sentence = %w("#{sentence}")
+  split_sentence = sentence.split(" ")
+    i = 0 
+      while i < split_sentence.length 
+        split_sentence[i].split("")
+        j = 0 
+        
+          while j < 
   pp split_sentence
 end  
